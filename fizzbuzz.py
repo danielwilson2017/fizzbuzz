@@ -44,11 +44,11 @@ Fizz
 Fizz
 Buzz
 """
-wq = int(float(input("How many number shall we print: ")))
-hq = int(float(input("For multiples of what number shall we print 'Fizz'? ")))
-for x in range(1, wq+1) :
-    for y in range(hq) :
+num = int(float(input("How many number shall we print: ")))
+f = int(float(input("For multiples of what number shall we print 'Fizz'? ")))
+for x in range(1, num+1) :
+    if x%f==0 :
         print("Fizz")
-print(x)
-
+    else :
+        print(x)
 
