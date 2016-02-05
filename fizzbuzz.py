@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: Daniel Wilson
-Credit: <list sources used, if any>
+Credit: Morgan M
 
 Assignment:
 
