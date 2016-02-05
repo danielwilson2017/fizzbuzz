@@ -53,7 +53,8 @@ for x in range(1, num+1) :
         print("FizzBuzz")
     elif x%f==0 :
         print ("Fizz")
-    
+    elif x%b==0 :
+        print("Buzz")
     else :
         print(x)
 
