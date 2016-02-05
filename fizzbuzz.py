@@ -44,7 +44,7 @@ Fizz
 Fizz
 Buzz
 """
-num = int(float(input("How many number shall we print: ")))
+num = int(float(input("How many numbers shall we print? ")))
 f = int(float(input("For multiples of what number shall we print 'Fizz'? ")))
 b = int(float(input("For multiples of what number shall we print 'Buzz'? ")))
 
