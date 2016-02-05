@@ -1,6 +1,6 @@
 """
 fizzbuzz.py
-Author: <your name here>
+Author: Daniel Wilson
 Credit: <list sources used, if any>
 
 Assignment:
