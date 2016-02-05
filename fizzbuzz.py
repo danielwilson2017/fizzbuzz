@@ -46,7 +46,9 @@ Buzz
 """
 wq = int(float(input("How many number shall we print: ")))
 hq = int(float(input("For multiples of what number shall we print 'Fizz'? ")))
-for x in range(1, ,hq, wq+1) :
-    print(x)
+for x in range(1, wq+1) :
+    for y in range(hq) :
+        print("Fizz")
+print(x)
 
 
