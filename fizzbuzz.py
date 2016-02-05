@@ -47,8 +47,9 @@ Buzz
 num = int(float(input("How many number shall we print: ")))
 f = int(float(input("For multiples of what number shall we print 'Fizz'? ")))
 b = int(float(input("For multiples of what number shall we print 'Buzz'? ")))
+
 for x in range(1, num+1) :
-    if x%f==0 :
+    if x%f==0 and x%b:
         print("Fizz")
     else :
         print(x)
