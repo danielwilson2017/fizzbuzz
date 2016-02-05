@@ -49,7 +49,7 @@ f = int(float(input("For multiples of what number shall we print 'Fizz'? ")))
 b = int(float(input("For multiples of what number shall we print 'Buzz'? ")))
 
 for x in range(1, num+1) :
-    if x%f==0 and x%b:
+    if x%f==0 and x%b==0 :
         print("Fizz")
     else :
         print(x)
